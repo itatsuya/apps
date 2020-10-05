@@ -1,0 +1,44 @@
+{
+	"languages": [
+		{
+			"langCode": "en",
+			"langDisplayName": "English"
+		},
+		{
+			"langCode": "ja",
+			"langDisplayName": "日本語"
+		},
+		{
+			"langCode": "zh-CN",
+			"langDisplayName": "中文（简体）"
+		},
+		{
+			"langCode": "zh-TW",
+			"langDisplayName": "中文（繁體）"
+		},
+		{
+			"langCode": "fr",
+			"langDisplayName": "Français"
+		},
+		{
+			"langCode": "it",
+			"langDisplayName": "Italiano"
+		},
+		{
+			"langCode": "de",
+			"langDisplayName": "Deutsch"
+		},
+		{
+			"langCode": "es",
+			"langDisplayName": "Español"
+		},
+		{
+			"langCode": "pt",
+			"langDisplayName": "Português"
+		},
+		{
+			"langCode": "ko",
+			"langDisplayName": "한국어"
+		}
+	]
+}

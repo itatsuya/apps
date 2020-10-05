@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Photos</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Photos</h1>
+    </header>
+    <div class="container">
+        <div id="img_unit">
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js">
+        /**
+        var ajax = new XMLHttpRequest();
+        ajax.open('GET', 'https://h2o-space.com/htmlbook/images.php');
+        ajax.responseType = 'json';
+        ajax.send(null);
+        ajax.onreadystatechange = function(){
+            if (ajax.readyState === XMLHttpRequest.DONE && ajax.status === 200) {
+                for (var i = 0; this.response.length; i++) {
+
+                }
+            }
+        }
+        **/
+    </script>
+    <script>
+
+        //複数のメソッドをチェーンにできる（メソッドチェーン）
+        //$('#img_unit').html('ここにリストが表示されます').css('margin-top','100px');
+        
+
+        $.getJSON('https://h2o-space.com/htmlbook/images.php', function (data) {
+            for (var i = 0; i < data.length; i++) {
+                $('<div class="photo"></div>')
+                    .append('<img src="' + data[i].path + '">')
+                    .append('<div class="inner"><p>' + data[i].caption + '<span>' + data[i].name + '</span></p></div>')
+                    .appendTo('#img_unit');
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+{
+    "name": "asdfasfd",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.6.0.13",
+            "frameworkVersion": "6.6.0.258"
+        },
+        "urlPrefix": "http://localhost/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "exportPath": "C:/Users/itatsuya/Desktop/aaa",
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.2.4",
+    "xdsBuild": 389,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "modern66",
+    "viewOrderMap": {
+        "view": [
+            "f18711e7-a4ae-4f46-b619-c99fba6c9a99",
+            "f99903cf-a912-45e4-91d7-01db3d0252f3",
+            "3edc0719-b188-4570-a646-84c845d56b6f",
+            "95a48823-0aee-4fc1-a05c-1c7a9d5fe3e8",
+            "721e40c0-7991-46f4-b336-9ae5d8c3c435",
+            "b7693b03-654d-414e-81e3-3dd49e7701b4"
+        ],
+        "store": [
+            "2437d9c8-a127-4e48-9623-de7718fd51d9"
+        ],
+        "controller": [],
+        "model": [
+            "fe3968d2-c599-4a9e-803a-1288251c5f50"
+        ],
+        "resource": [
+            "b6fb0067-4fa0-4538-b48b-119f3ec6ca5c",
+            "2e800b9d-2444-4d1f-b2ea-c9a34bf27380",
+            "4c77db15-6ac9-4b3d-97c7-246140e4c891"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

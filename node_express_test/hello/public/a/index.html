@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Photos</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Photos</h1>
+    </header>
+    <div class="container">
+        <div id="img_unit">
+        </div>
+    </div>
+    <script>
+        var images = [
+            {
+                "path": "img/img01.jpg",
+                "name": "name01",
+                "caption": "コメント１"
+            }, {
+                "path": "img/img01.jpg",
+                "name": "name02",
+                "caption": "コメント２"
+            }
+        ];
+        var img;
+        var caption;
+        var div;
+
+        for (var i = 0; i < images.length; i++) {
+            img = document.createElement('img');
+            img.setAttribute('src', images[i].path);
+            // <img src="image[i].path">
+
+            caption = document.createElement('div');
+            // やり方△
+            //caption.setAttribute('class', 'inner') ;
+            
+            // やり方〇
+            caption.className = 'inner';
+            caption.innerHTML = '<p>' + images[i].caption + '<span>' + images[i].name + '</span></p>';
+            // <div class="inner"><p>captin<span>name</span></p></div>
+
+            div = document.createElement('div');
+            div.className = "photo";
+            div.appendChild(img);
+            div.appendChild(caption);
+            // <div class="photo"> <img> <div class="inner">
+            // </div>
+
+            document.getElementById('img_unit').appendChild(div);
+
+        }
+
+    </script>
+</body>
+
+</html>

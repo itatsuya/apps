@@ -1,0 +1,11 @@
+{
+	"screen_saver": {
+		"opacity": 0.6,
+		"timeout": 120,
+		"interval": 5,
+		"imageArrangement": "FILL",
+		"images": [
+			"resources/screen-saver/screen_saver.png"
+		]
+	}
+}

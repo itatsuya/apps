@@ -1,0 +1,152 @@
+{
+  "fonts": [
+    {
+      "familyName": "Lobster",
+      "fileName": "lobster-latin.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "enabledStyles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    },
+    {
+      "familyName": "Lora",
+      "fileName": "lora-latin.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "enabledStyles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    },
+    {
+      "familyName": "Montserrat",
+      "fileName": "montserrat-latin.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "enabledStyles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    },
+    {
+      "familyName": "Philosopher",
+      "fileName": "philosopher-latin.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "enabledStyles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    },
+    {
+      "familyName": "Roboto Condensed",
+      "fileName": "roboto-condensed-latin.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "enabledStyles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    },
+    {
+      "familyName": "Ubuntu",
+      "fileName": "ubuntu-latin.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "enabledStyles": [
+        "normal",
+        "bold",
+        "italic",
+        "boldItalic"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    },
+    {
+      "familyName": "IPAMincho",
+      "fileName": "ipamincho.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal"
+      ],
+      "enabledStyles": [
+        "normal"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    },
+    {
+      "familyName": "IPAGothic",
+      "fileName": "ipagothic.css",
+      "system": true,
+      "enabled": true,
+      "styles": [
+        "normal"
+      ],
+      "enabledStyles": [
+        "normal"
+      ],
+      "textPanel": true,
+      "cutPanel": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "viewType": "grid",
+  "headerAreaBGColor": "transparent",
+  "headerAreaTextColor": "#000",
+  "pageDescAreaBGColor": "#E6E7E8",
+  "pageDescAreaTextColor": "#000",
+  "grid": {
+    "breadcrumbBGColor": "transparent",
+    "breadcrumbTextColor": "#000",
+    "itemBGColor": "white",
+    "itemTextColor": "#000",
+    "itemImageBGColor": "transparent",
+    "itemFontFamily": "Arial",
+    "itemFontSize": "15px",
+    "itemFontStyle": "normal",
+    "itemFontWeight": "normal"
+  },
+  "hidePriceOnCatalog": false
+}

@@ -1,0 +1,37 @@
+{
+  "materials": [
+    {
+      "materialName": "RDG Standard",
+      "cutSettings": {
+        "cutForce": 50,
+        "cutSpeed": 20,
+        "cutOffset": 0.25,
+        "cutQuality": "normal"
+      },
+      "materialColors": [
+        {
+          "colorName": "DGS-BK",
+          "colorValue": "#000000"
+        },
+        {
+          "colorName": "DGS-WH",
+          "colorValue": "#FFFFFF"
+        },
+        {
+          "colorName": "DGS-RD",
+          "colorValue": "#FF0000"
+        },
+        {
+          "colorName": "DGS-DB",
+          "colorValue": "#0000FF"
+        },
+        {
+          "colorName": "DGS-GR",
+          "colorValue": "#00FF00"
+        }
+      ],
+      "system": true,
+      "enabled": true
+    }
+  ]
+}

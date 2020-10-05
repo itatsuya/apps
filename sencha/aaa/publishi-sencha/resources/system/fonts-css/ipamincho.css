@@ -1,0 +1,5 @@
+/* IPA Mincho */
+@font-face {
+  font-family: 'IPAMincho';
+  src: url('../fonts/ipaexm.ttf') format('truetype');
+}

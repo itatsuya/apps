@@ -1,0 +1,182 @@
+{
+   "name": "RolandKioskPrint",
+   "namespace": "RolandKioskPrint",
+   "version": "1.0.0.0",
+   "framework": "ext",
+   "toolkit": "classic",
+   "theme": "theme-triton-a424ee13-20a6-4311-83d3-5bb9decb6320",
+   "requires": [
+      "sencha-charts",
+      "font-awesome"
+   ],
+   "indexHtmlPath": "index.html",
+   "classpath": "${app.dir}/app,${app.dir}/resources/js/,${app.dir}/app/override/",
+   "overrides": [
+      "overrides"
+   ],
+   "fashion": {
+      "missingParameters": "error",
+      "inliner": {
+         "enable": false
+      }
+   },
+   "sass": {
+      "namespace": "RolandKioskPrint",
+      "generated": {
+         "var": "sass/save.scss",
+         "src": "sass/save"
+      },
+      "etc": [
+         "sass/etc/all.scss"
+      ],
+      "var": [
+         "sass/var/all.scss",
+         "sass/var"
+      ],
+      "src": [
+         "sass/src"
+      ]
+   },
+   "js": [
+      {
+         "path": "${framework.dir}/build/ext-all-rtl-debug.js"
+      },
+      {
+         "path": "resources/js/fabric.js"
+      },
+      {
+         "path": "app/override/Component.js",
+         "x-compile": true
+      },
+      {
+         "path": "resources/js/customiseControls.js"
+      },
+      {
+         "path": "resources/js/lozad.js",
+         "includeInBundle": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true
+      }
+   ],
+   "css": [
+      {
+         "path": "${build.out.css.path}",
+         "bundle": true,
+         "exclude": [
+            "fashion"
+         ]
+      },
+      {
+         "path": "resources/css/rkp-button.css"
+      },
+      {
+         "path": "resources/css/thumb-wrap.css"
+      },
+      {
+         "path": "resources/css/catalog-thumb-wrap.css"
+      },
+      {
+         "path": "resources/images/icon-font/style.css"
+      },
+      {
+         "path": "resources/css/rkp-grid.css"
+      },
+      {
+         "path": "resources/css/rkp-tab.css"
+      },
+      {
+         "path": "resources/fonts-css/user.css"
+      },
+      {
+         "path": "resources/css/rkp-slider.css"
+      }
+   ],
+   "loader": {
+      "cache": false,
+      "cacheParam": "_dc"
+   },
+   "production": {
+      "output": {
+         "appCache": {
+            "enable": true,
+            "path": "cache.appcache"
+         }
+      },
+      "loader": {
+         "cache": "${build.timestamp}"
+      },
+      "cache": {
+         "enable": true
+      },
+      "compressor": {
+         "type": "yui"
+      }
+   },
+   "testing": {},
+   "development": {
+      "watch": {
+         "delay": 250
+      }
+   },
+   "bootstrap": {
+      "base": "${app.dir}",
+      "microloader": "bootstrap.js",
+      "css": "bootstrap.css"
+   },
+   "output": {
+      "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+      "appCache": {
+         "enable": false
+      }
+   },
+   "cache": {
+      "enable": false,
+      "deltas": true
+   },
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      {
+         "path": "resources",
+         "output": "shared"
+      },
+      "resources/css/rkp-button.css",
+      "resources/css/thumb-wrap.css",
+      "resources/css/catalog-thumb-wrap.css",
+      "resources/images/icon-font/style.css",
+      "resources/css/rkp-grid.css",
+      "resources/css/rkp-tab.css",
+      "resources/fonts-css/user.css",
+      "resources/css/rkp-slider.css"
+   ],
+   "archivePath": "archive",
+   "slicer": {
+      "js": [
+         {
+            "path": "sass/example/custom.js",
+            "isWidgetManifest": true
+         }
+      ],
+      "output": {
+         "appCache": {
+            "enable": false
+         }
+      },
+      "cache": {
+         "enable": false
+      }
+   },
+   "ignore": [
+      "(^|/)CVS(/?$|/.*?$)"
+   ],
+   "id": "62719fa7-9fe5-4944-99f1-62ef701eb071"
+}

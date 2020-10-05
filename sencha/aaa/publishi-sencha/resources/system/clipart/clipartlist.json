@@ -1,0 +1,67 @@
+{
+  "clipartCategories": [
+    {
+      "categoryName": "Shapes",
+      "clipartItems": [
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/circle.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/diamond.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/heart.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/hexagon.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/pentagon.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/rectangle.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/roundedrectangle.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/speechbubble.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/star.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/trapeziod.svg",
+          "uniColor": true
+        },
+        {
+          "fileType": "svg",
+          "filePath": "resources/system/clipart/Shapes/triangle.svg",
+          "uniColor": true
+        }
+      ],
+      "system": true,
+      "defaultSizeCanvas": 1,
+      "defaultSizeEditArea": 0
+    }
+  ]
+}

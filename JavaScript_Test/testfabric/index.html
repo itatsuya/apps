@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+
+<html manifest="" lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <!--<link rel="shortcut icon" href="resources/images/coto_white_16x16.png" mime="image/png">-->
+    <title>cotodesign</title>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+
+    <script type="text/javascript"  src="resource\js\jquery-3.3.1.min.js"></script>
+    <script   src="resource\js\fabric.min.js"></script>
+    <script  type="text/javascript" src="resource\js\samp.js"></script>
+    <link rel="stylesheet" type="text/css" href="resource\css\a.css">
+</head>
+<body>
+ <canvas id="c" width="400" height="200"></canvas>
+  <br>
+  <input type="text" class="text" value="Curved text"><br>
+  Rayon : <input type="range"  min="0" max="100" value="50" class="radius" /><br>
+  Espacement : <input type="range"  min="5" max="40" value="20" class="spacing" /><br>
+  inverser le texte : <label><input type="radio" name="reverse" class="reverse" value="true" /> Oui</label> <label><input type="radio" name="reverse" class="reverse" value="false" checked="checked" /> Non</label><br />
+  Alignement : <label><input type="radio" name="align" class="align" value="left" /> Gauche</label> <label><input type="radio" name="align" class="align" value="center" checked="checked" /> Centre</label>  <label><input type="radio" name="align" class="align" value="right" /> Droite</label><br >
+  Taille du texte : <input type="range"  min="3" max="100" value="20" class="fontSize" /><br>
+</body>
+</html>

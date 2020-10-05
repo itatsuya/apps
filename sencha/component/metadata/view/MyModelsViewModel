@@ -1,0 +1,53 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mymodels",
+        "designer|userClassName": "MyModelsViewModel"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "designerId": "26d59880-0633-4070-8348-0f27e6b44d7f",
+    "cn": [
+        {
+            "type": "Ext.data.Store",
+            "reference": {
+                "name": "stores",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "data": [
+                    "[{\"id\":1,\"myField\":\"sed\"},{\"id\":2,\"myField\":\"consequuntur\"},{\"id\":3,\"myField\":\"iusto\"},{\"id\":4,\"myField\":\"architecto\"},{\"id\":5,\"myField\":\"laborum\"},{\"id\":6,\"myField\":\"et\"},{\"id\":7,\"myField\":\"nam\"},{\"id\":8,\"myField\":\"sunt\"},{\"id\":9,\"myField\":\"quae\"},{\"id\":10,\"myField\":\"rerum\"},{\"id\":11,\"myField\":\"molestiae\"},{\"id\":12,\"myField\":\"voluptatem\"},{\"id\":13,\"myField\":\"ipsam\"},{\"id\":14,\"myField\":\"minus\"},{\"id\":15,\"myField\":\"accusantium\"},{\"id\":16,\"myField\":\"qui\"},{\"id\":17,\"myField\":\"vitae\"},{\"id\":18,\"myField\":\"occaecati\"},{\"id\":19,\"myField\":\"occaecati\"},{\"id\":20,\"myField\":\"molestiae\"},{\"id\":21,\"myField\":\"explicabo\"},{\"id\":22,\"myField\":\"ea\"},{\"id\":23,\"myField\":\"aut\"},{\"id\":24,\"myField\":\"voluptates\"},{\"id\":25,\"myField\":\"dolores\"},{\"id\":26,\"myField\":\"ipsum\"},{\"id\":27,\"myField\":\"dolore\"},{\"id\":28,\"myField\":\"omnis\"},{\"id\":29,\"myField\":\"pariatur\"},{\"id\":30,\"myField\":\"perferendis\"}]"
+                ],
+                "model": "MyModel",
+                "name": "myModels"
+            },
+            "configAlternates": {
+                "data": "array",
+                "model": "model",
+                "name": "string"
+            },
+            "name": "myModels",
+            "designerId": "4ecbfe05-0e8d-48a2-8735-097a1d46442a",
+            "cn": [
+                {
+                    "type": "Ext.data.proxy.Memory",
+                    "reference": {
+                        "name": "proxy",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyMemoryProxy",
+                    "designerId": "1bf39c02-9364-4b5b-8040-d37a06dc5b53"
+                }
+            ]
+        }
+    ]
+}

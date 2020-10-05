@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Template List and Print Layout List</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<table align="center" bgcolor="#ccccff" border="1" cellpadding="2" cellspacing="0" width="100%">
+<tbody>
+<tr>
+	<td valign="middle"><div align="center"><font size="4"><strong>Template List and Print Layout List</strong></font></div></td>
+</tr>
+</tbody>
+</table>
+
+<P>These are the lists of the "templates" and "print layouts" registered to cotodesign.<br/>
+</P>
+
+<b>What is a template?</b><br/> This is a template of printing data to be selected by customers. <br/> You can set the product's size, the characters and images to print, and whether to perform special processing. <br/> <br/> <b>What is a print layout?</b><br/> This is data in which the template's placement, which is used when printing with the printer, is set. <br/> Templates that have not been placed in a print layout cannot be printed. <br/> Normally, set print layouts so that multiple templates can be placed in them. A single printing data object is created in which multiple templates are placed, and then this printing data is printed by a printer. <br/> <br/>
+
+<HR>
+<P>
+
+<b>Buttons in the upper-right corner of the screen</b><br/>
+
+<P>
+<b><img src="images/icon_passwd.png" alt="Password change"/></b><br/> Changes the password entered when starting cotodesign Template and cotodesign Order Viewer. <br/> In order to improve security, periodically change the password.</P>
+
+<P>
+<b><img src="images/icon_help.png" alt="Help display"/></b><br/> Displays the online help file.</P>
+
+</P>
+
+<HR>
+<P>
+
+<b>LANGUAGE</b><br/>
+<P>
+<b><img src="images/icon_language.png" alt="Language"/></b><br/> Changes the display language.<br/>
+</P>
+	
+</P>
+	
+<HR>
+
+<P>
+<P><b>Template List</b></P>
+
+<P id="icon_new"><img src="images/icon_new.png" alt="New template"/><br/> Creates a new template. <br/> &nbsp;• Related item&nbsp;&gt;&gt;&nbsp;<a href="tp_pl_list_newtemplate.html">Determining the Size and Printing Method for a Template</a></P>
+
+
+<P><img src="images/icon_edit.png" alt="Edit template"/><br/> Edits the template.</P>
+
+<P><img src="images/icon_import.png" alt="Import template (SVG)"/><br/> Imports an SVG file and adds a new template. <br/> For the SVG file specifications, see the "cotodesign Setup Guide."</P>
+
+<P><img src="images/icon_preview.png" alt="Preview template"/><br/> Displays the template preview. <br/> The settings cannot be changed.</P>
+
+<P><img src="images/icon_delete.png" alt="Delete template"/><br/> Deletes the template.</P>
+
+<P><img src="images/icon_upload.png" alt="Upload template"/><br/> Imports a template file and uploads it to the server.</P>
+
+<P><img src="images/icon_save.png" alt="Save template"/><br/> Saves the selected template.</P>
+	
+<p><img src="images/icon_filter.png" alt="Filter template"/><br/> Enter a part of a template name to filter the template files that are displayed in the template list.</p>
+
+<P><font COLOR="#6633CC"><b>NAME</b></font><br/> Displays the file name of the registered template. <br/> Template file names are subject to naming rules and indicate a period-separated layer configuration.</P>
+</P>
+<p><font color="#6633CC"><strong>TYPE OF PRINTING</strong></font><br/> When printing on a printer, select "Color Print." When using a laser decorator, select "Foil Print." When using a metal printer, select "Metal Imprint." When using a cutting machine, select "Cutting." <br/> Click "▼" and select "TYPE OF PRINTING" to filter the template files that are displayed in the template list.</p>
+<p><font color="#6633CC"><strong>SPECIAL EFFECT</strong></font><br/> When "SPOT COLOR" is used to create a template file, an icon corresponding to the special effect is displayed.</p>
+<HR>
+
+<P>
+<P><b>Print Layout List</b></P>
+
+<P><img src="images/icon_new.png" alt="New print layout"/><br/> Creates a new print layout.</P>
+
+<P><img src="images/icon_edit.png" alt="Edit print layout"/><br/> Changes the print layout settings.</P>
+
+<P><img src="images/icon_import.png" alt="Import print layout (SVG)"/><br/> Imports an SVG file and adds a new print layout. <br/> For the SVG file specifications, see the "cotodesign Setup Guide."</P>
+
+<P><img src="images/icon_preview.png" alt="Preview print layout"/><br/> Displays the print layout preview. <br/> The settings cannot be changed.</P>
+
+<P><img src="images/icon_delete.png" alt="Delete print layout"/><br/> Deletes the print layout.</P>
+
+<P><img src="images/icon_upload.png" alt="Upload template"/><br/> Imports a print layout file and uploads it to the server.</P>
+
+<P><img src="images/icon_save.png" alt="Save template"/><br/> Saves the selected print layout.</P>
+<p><font color="#6633CC"><strong>CONNECT</strong></font><br/> Selects the print layout in which to place the template. <br/> Each template requires at least one print layout for its placement destination. Templates that have not been placed in a print layout cannot be printed. <br/> Multiple print layouts can be selected for the placement destinations of a single template. However, templates and print layouts can only be combined if they have the same type of printing. For example, templates dedicated for use with color printing can only be associated with print layouts for color printing. Use cotodesign Print Manager to set which print layouts in which to place ordered templates.</p>
+<P><font COLOR="#6633CC"><b>DEFAULT</b></font><br/> Selects the print layout in which templates are automatically placed when the [Automatic Order Layout] check box is selected in cotodesign Print Manager.</P>
+
+<P><font COLOR="#6633CC"><b>NAME</b></font><br/> Displays the file name of the print layout.</P>
+</P>
+<p><font color="#6633CC"><strong>TYPE OF PRINTING</strong></font><br/> When printing on a printer, select "Color Print." When using a laser decorator, select "Foil Print." When using a metal printer, select "Metal Imprint." When using a cutting machine, select "Cutting."</p>
+<p> Click "▼" and select "TYPE OF PRINTING" to filter the files that are displayed in the print layout list.</p>
+<HR>
+
+<P><font COLOR="#6633CC"><b>SAVE</b></font><br/> Saves on the server the placement destination settings of the template and print layout.</P>
+
+<p>&nbsp;</p>
+<font SIZE="1" COLOR="gray"> Copyright (C) 2017-2019 Roland DG Corporation</font><br/>
+</div>
+</body>
+</html>

@@ -1,0 +1,1680 @@
+/* CSS for the various button types */
+
+.pmd-mld-form .x-panel-header {
+    border-width: 0px !important;
+    background-color: rgb(57, 62, 73);
+    padding: 6px 6px 6px 12px;
+}
+
+.pmd-mld-form .x-panel-header-title-default {
+    color: white;
+    font-size: 0.75em;
+}
+
+.pmd-mld-form .x-tool-tool-el {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(57, 62, 73);
+    text-align: center;
+    opacity: 1 !important;
+}
+
+.pmd-mld-form .pmd-mld-change-password-tool .x-tool-tool-el {
+    margin: 2px 5px 0px 0px !important;
+    border: none;
+}
+
+.pmd-mld-form .pmd-mld-help-tool .x-tool-tool-el {
+    margin-right: 10px !important;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Background color for pmd-mld-form panel tool when pressed. */
+.pmd-mld-form .x-tool-pressed .x-tool-tool-el{
+    background-color: #5fa2dd;
+}
+
+.pmd-mld-unpaid-form .x-panel-header {
+    padding-bottom: 0px;
+    margin-bottom: -3px;
+}
+
+.separator-bar .x-panel-body {
+    background-color: rgb(57, 117, 229) !important;
+}
+
+.pmd-mld-form-content-panel .x-panel-header {
+    background-color: white !important;
+    border-bottom: solid 2px rgb(57, 117, 229) !important;
+}
+
+.pmd-mld-form-content-panel .x-panel-header-title {
+    color: black !important;
+}
+
+.pmd-mld-form-content-panel {
+    margin: 5px;
+    border: solid 1px rgb(154, 158, 163) !important;
+}
+
+#chain-icon {
+    font-family: 'FontAwesome';
+    font-size: 36px;
+    text-align: center;
+    line-height: 64px;
+    float: left;
+}
+
+/* Style for the PMD-MLD action button. */
+.action-button, .action-button-over {
+    background-color: rgb(230, 231, 232);
+    border: solid 1px rgb(181, 183, 187);
+}
+
+.action-button.x-btn-pressed {
+    background-color: rgb(186, 189, 192) !important;
+    border-color: solid 1px rgb(131, 134, 137) !important;
+}
+
+.action-button.x-item-disabled {
+    background-color: rgb(230, 231, 232) !important;
+    border: solid 1px rgb(181, 183, 187) !important;
+    opacity: 0.5 !important;
+}
+
+.action-button .x-btn-inner {
+    color: black;
+}
+
+.toggle-button {
+    background-color: transparent !important;
+    border: none;
+}
+
+.toggle-button.x-btn-default-small {
+    padding: 0px;
+}
+
+.toggle-button .x-btn-icon-el-default-small {
+    font-size: 28px;
+    color: #52565E;
+    width: 100%;
+    height: 100%;
+}
+
+.toggle-button.x-btn-pressed .x-btn-icon-el-default-small {
+    color: #0099D9;
+}
+
+.toolbar-button {
+    background-color: rgb(230, 231, 232);
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.toolbar-button::before {
+    font-size: 28px;
+}
+
+/* x-btn-inner targets the label of the button. */
+.toolbar-button .x-btn-inner {
+    color: black;
+    margin-top: -20px;
+    font-size: 10px;
+    padding: 0px;
+}
+
+/* Overidden style for pd-toolspanel button text color. Required for dynamic color change. */
+.pd-toolspanel .toolbar-button .x-btn-inner {
+    color: black;
+}
+
+.toolbar-button-icon .x-btn-inner {
+    margin-top: 35px !important;
+}
+
+/* x-btn-icon-el targets the icon of the button. */
+.toolbar-button-icon .x-btn-icon-el {
+    width: 29px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin: auto;
+}
+
+.toolbar-button.x-btn-pressed {
+    background-color: white !important;
+}
+
+.toolbar-button.x-btn-pressed::before {
+    color: rgb(0, 153, 217) !important;
+}
+
+.toolbar-button.x-btn-over {
+    background-color: rgb(230, 231, 232);
+}
+
+.toolbar-button.x-btn-pressed span {
+    color: rgb(0, 153, 217) !important;
+}
+
+.fa-camera::before {
+    color: rgb(82, 86, 95);
+}
+
+.fa-font::before {
+    color: rgb(58, 117, 229);
+}
+
+.fa-smile-o::before {
+    color: rgb(234, 147, 21);
+}
+
+.img-color {
+    background-image: url('../images/ColorTool.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.img-spot-color {
+    background-image: url('../images/SpotColorTool.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.x-btn-pressed.img-color {
+    background-image: url('../images/ColorToolDown.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.x-btn-pressed.img-spot-color {
+    background-image: url('../images/SpotColorToolDown.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.img-color.x-item-disabled {
+    background-image: url('../images/ColorToolDisabled.png') !important;
+}
+
+.fa-cut::before {
+    color: rgb(216, 53, 50);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    display: inline-block;
+}
+
+.toolbar-button.icon-free-area::before {
+    color: rgb(89, 172, 53);
+    font-size: 30px !important;
+}
+
+.toolbar-button.x-item-disabled {
+    background-color: rgb(230, 231, 232) !important;
+    opacity: 1 !important;
+}
+
+.toolbar-button.x-item-disabled::before {
+    color: rgb(206, 207, 209) !important;
+}
+
+.toolbar-button.x-item-disabled .x-btn-inner {
+    color: rgb(206, 207, 209) !important;
+}
+
+.toolbar {
+    background-color: rgb(230, 231, 232);
+}
+
+.panel-button {
+    background-color: rgb(230, 231, 232);
+    color: rgb(82, 86, 95);
+    text-align: center;
+    font-family: 'FontAwesome';
+    font-size: 28px;
+    line-height: 32px;
+    float: left;
+}
+
+.panel-button.icomoon {
+    font-family: 'icomoon';
+    font-size: 60px;
+}
+
+.panel-button.icomoon::before {
+    position: absolute;
+    left: calc(50% - 30px);
+    left: -webkit-calc(50% - 30px);
+    left: -moz-calc(50% - 30px);
+    top: calc(50% - 30px);
+    top: -webkit-calc(50% - 30px);
+    top: -moz-calc(50% - 30px);
+}
+
+.panel-button.x-btn-pressed {
+    background-color: rgb(206, 207, 209) !important;
+}
+
+.panel-button-over {
+    background-color: rgb(230, 231, 232);
+}
+
+.panel-button.x-item-disabled {
+    background-color: rgb(230, 231, 232) !important;
+    color: rgb(206, 207, 209) !important;
+    opacity: 1 !important;
+}
+
+.panel-button.first-column {
+    margin-right: 5px;
+}
+
+.panel-button.fa-object-group {
+    padding-left: 5px;
+}
+
+.panel-button.fa-object-ungroup {
+    padding-left: 3px;
+}
+
+.action-panel {
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(230, 231, 232);
+}
+
+.action-panel .x-panel-header {
+    background-color: rgb(230, 231, 232) !important;
+    border-width: 1px 0px 0px 0px !important;
+    border-color: rgb(157, 159, 160) !important;
+    padding: 0px;
+}
+
+/* No border for the first action panel. */
+.action-panel.first-panel .x-panel-header {
+    border-width: 0px 0px 0px 0px !important;
+}
+
+.action-panel .x-panel-header-title-default {
+    color: black;
+    font-size: 10px;
+}
+
+/* Overidden style for pd-action-panel label color. Required for dynamic color change. */
+.pd-action-panel-container .action-panel .x-panel-header-title-default {
+    color: black;
+}
+
+.action-panel .x-panel-body {
+    background-color: rgb(230, 231, 232);
+}
+
+.action-panel-container {
+    background-color: rgb(230, 231, 232);
+}
+
+.action-panel-container {
+    border-color: rgb(157, 159, 160) !important;
+    border-width: 0px 0px 0px 1px !important;
+}
+
+.toolpanel-button {
+    background-color: white;
+    border-color: rgb(203, 206, 208);
+    color: rgb(82, 86, 95);
+    text-align: center;
+    font-family: 'FontAwesome';
+    font-size: 28px;
+    line-height: 32px;
+    float: left;
+}
+
+.toolpanel-button.x-btn-disabled {
+    background-color: white !important;
+}
+
+.toolpanel-button.x-btn-pressed {
+    background-color: rgb(206, 207, 209) !important;
+    border-color: rgb(157, 159, 160) !important;
+}
+
+.toolpanel-button-over {
+    background-color: white;
+}
+
+.toolpanel-button-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toolpanel-button .x-btn-inner {
+    color: black;
+    word-break: break-word;
+    white-space: normal;
+    text-align: left;
+}
+
+/* Overidden style for pd-toolspanel button text color. Required for dynamic color change. */
+.pd-toolspanel .toolpanel-button .x-btn-inner {
+    color: black;
+}
+
+.img-fill-color {
+    background-image: url('../images/FillColor.png') !important;
+}
+
+.img-outline-color {
+    background-image: url('../images/OutlineColor.png') !important;
+}
+
+/* CSS for other control types */
+.toolpanel-field-set {
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.toolpanel-combo-box {
+    background-color: rgb(230, 231, 232);
+    color: black;
+    font-weight: normal;
+}
+
+/* Used for combobox to fit the selection in menu list */
+.x-boundlist .x-boundlist-list-ct ul.x-list-plain {
+    width: fit-content;
+    min-width: 100%;
+}
+
+.toolpanel-text-area {
+    background-color: rgb(230, 231, 232);
+    color: black;
+    padding: 0px 5px 0px 5px !important;
+    font-weight: normal;
+}
+
+.toolpanel-label {
+    color: black;
+    font-weight: normal;
+    user-select: none;
+}
+
+.toolpanel-checkbox .x-form-cb-label {
+    color: black;
+    font-weight: normal;
+    user-select: none;
+}
+
+.toolpanel-label.x-item-disabled {
+    opacity: 0.3;
+}
+
+.toolpanel-color-view.x-item-disabled {
+    opacity: 0.3;
+}
+
+.toolpanel-checkbox.x-item-disabled {
+    opacity: 0.3;
+}
+
+.img-curved-text-inside {
+    background-image: url('../images/CurvedTextPlacementInside.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: 90px;
+}
+
+.img-curved-text-outside {
+    background-image: url('../images/CurvedTextPlacementOutside.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: 90px;
+}
+
+.toolpanel-color-view .x-mask {
+    background-color: transparent !important;
+}
+
+/* Overidden style for pd-toolspanel toolpanel combo, text area and labels. Required for dynamic color change. */
+.pd-toolspanel .toolpanel-combo-box,
+.pd-toolspanel .toolpanel-text-area,
+.pd-toolspanel .toolpanel-label,
+.pd-toolspanel .toolpanel-checkbox .x-form-cb-label {
+    color: black;
+}
+
+.tool-panel-container > .x-panel-bodyWrap > .x-panel-body {
+    border-color: rgb(157, 159, 160) !important;
+    border-width: 0px 1px 0px 0px !important;
+}
+
+/* Boder style for navigation panels. */
+.nav-panel {
+    background-color: transparent;
+}
+
+.nav-panel {
+    border-color: rgb(157, 159, 160) !important;
+    border-width: 0px 0px 1px 0px !important;
+    border-style: solid;
+}
+
+.nav-panel .x-panel-body {
+    border: none;
+}
+
+/* Style for command button. */
+.command-button {
+    background-color: rgb(227, 228, 229);
+    border: 1px solid rgb(227, 228, 229);
+    border-radius: 25px;
+}
+
+.command-button.x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: rgb(205, 207, 209) !important;
+    border: 1px solid rgb(205, 207, 209) !important;
+}
+
+/* Text color of command button. */
+.command-button .x-btn-inner-default-small {
+    color: rgb(82, 86, 95);
+    font-size: 14px;
+}
+
+/* Hover color of command button. */
+.command-button-over {
+    background-color: rgb(227, 228, 229);
+}
+
+/* Focus color of command button. */
+.command-button-focus {
+    background-color: rgb(227, 228, 229);
+}
+
+/* Disabled state of command button. */
+.command-button.x-item-disabled {
+    background-color: transparent !important;
+    border: 1px solid rgb(206, 207, 209) !important;
+    opacity: 1.0 !important;
+}
+
+.command-button.x-item-disabled .x-btn-inner-default-small {
+    color: rgb(206, 207, 209) !important;
+}
+
+/* Style for default command button. */
+.default-command-button {
+    background-color: rgb(179, 221, 246);
+    border: 1px solid rgb(179, 221, 246);
+    border-radius: 25px;
+}
+
+/* Style for default command button. */
+.default-command-button.x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: rgb(0, 153, 217) !important;
+    border: 1px solid rgb(0, 153, 217);
+}
+
+/* Text color of default command button. */
+.default-command-button .x-btn-inner-default-small {
+    color: rgb(82, 86, 95);
+    font-size: 14px;
+}
+
+/* Text color of default command button when pressed. */
+.default-command-button.x-btn-pressed .x-btn-inner-default-small {
+    color: white;
+}
+
+/* Hover color of default command button. */
+.default-command-button-over {
+    background-color: rgb(179, 221, 246);
+}
+
+/* Focus color of default command button. */
+.default-command-button-focus {
+    background-color: rgb(179, 221, 246);
+}
+
+/* Disabled state of default command button. */
+.default-command-button.x-item-disabled {
+    background-color: transparent !important;
+    border: 1px solid rgb(206, 207, 209) !important;
+    opacity: 1.0 !important;
+}
+
+.default-command-button.x-item-disabled .x-btn-inner-default-small {
+    color: rgb(206, 207, 209) !important;
+}
+
+.image-upload-form-label, 
+.image-upload-form-value-label {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+.bold {
+    font-weight: bold; 
+}
+
+.hypertext {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.image-upload-note {
+    font-size: 11px; 
+}
+
+/* Style for top label in various forms. */
+.order-form-top-label,
+.new-product-form-top-label {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    background-color: rgb(230, 231, 232);
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Style for regular text labels in order panels. */
+.order-form-regular-labels {
+    display: block;
+    color: black;
+    vertical-align: bottom !important;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Additional Style for large text labels in order panels. */
+.order-form-large-labels {
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    right: 10px;
+    line-height: 30px;
+}
+
+/* Additional Style for large text labels in order confirmation panel. */
+.order-confirmation-form-large-labels {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+/* General trbl border style for navigation panels. */
+.order-form-info-panel .x-panel-default-outer-border-trbl {
+    border-color: rgb(181, 183, 187) !important;
+    border-width: 0px 0px 1px 0px !important;
+}
+
+.product-description-panel .x-panel-default-outer-border-trbl {
+    border-width: 0px 0px 0px 0px !important;
+}
+
+.product-description-textbox {
+    color: black;
+    text-align: justify;
+    background-color: white;
+    border: 1px solid rgb(181, 183, 187);
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+/* Text size of order & re-create button in order verify panel. */
+.command-button-small-text .x-btn-inner-default-small{
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.unit-panel .x-panel-body {
+    border-color: rgb(181, 183, 187) !important;
+    border-width: 0px 0px 1px 0px !important;
+}
+
+.unit-label {
+    font-weight: normal;
+}
+
+.product-size-panel .x-panel-body,
+.product-margins-panel .x-panel-body,
+.product-corners-panel .x-panel-body,
+.product-offset-panel .x-panel-body {
+    border-color: rgb(181, 183, 187) !important;
+    border-width: 0px 0px 0px 1px !important;
+}
+
+.product-size-label {
+    color: rgb(216, 53, 30);
+    font-weight: normal;
+}
+
+.product-margins-label {
+    color: rgb(89, 172, 53);
+    font-weight: normal;
+}
+
+.product-corners-label {
+    color: rgb(58, 117, 229);
+    font-weight: normal;
+}
+
+.product-offset-label,
+.metal-properties-label {
+    font-weight: normal;
+}
+
+.product-custom-size-checkbox .x-form-cb-label,
+.image-outline-checkbox .x-form-cb-label,
+.product-bidi-checkbox .x-form-cb-label,
+.product-enable-outline-checkbox .x-form-cb-label{
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.product-print-type-combobox .x-form-text,
+.product-print-type-combobox .x-form-trigger,
+.product-marking-mode-combobox .x-form-text,
+.product-marking-mode-combobox .x-form-trigger,
+.product-marking-materials-combobox .x-form-text,
+.product-marking-materials-combobox .x-form-trigger {
+    background-color: rgb(230, 231, 232);
+}
+
+.product-print-type-combobox .x-form-item-label,
+.product-marking-mode-combobox .x-form-item-label,
+.product-marking-materials-combobox .x-form-item-label {
+    font-weight: normal;  
+}
+
+.display-block {
+    display: block;
+}
+
+.model-layout-max-size-panel .x-panel-body,
+.model-layout-slot-size-panel .x-panel-body,
+.model-layout-origin-panel .x-panel-body,
+.model-layout-print-offset-panel .x-panel-body,
+.model-layout-matrix-panel .x-panel-body,
+.model-layout-spacing-panel .x-panel-body {
+    border-color: rgb(181, 183, 187) !important;
+    border-width: 0px 0px 0px 1px !important;
+}
+
+.model-layout-max-size-label,
+.model-layout-slot-size-label,
+.model-layout-origin-label,
+.model-layout-print-offset-label,
+.model-layout-matrix-label,
+.model-layout-spacing-label,
+.model-layout-rotation-label {
+    font-weight: normal;
+}
+
+.model-layout-max-size-checkbox .x-form-cb-label,
+.model-layout-foil-print-checkbox .x-form-cb-label {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.model-layout-name-label {
+    font-weight: normal;
+}
+
+/* Default command button override for image upload selection screen. */
+.image-upload-method-default-command-button {
+    border-radius: 70px !important;
+    background-color: white;
+    border: 8px solid #B3DDF6;
+}
+
+.x-btn-pressed.image-upload-method-default-command-button {
+    border-radius: 70px !important;
+    background-color: white !important;
+    border: 8px solid #0099D9 !important;
+}
+
+.image-upload-method-default-command-button .x-btn-inner {
+    text-align: center;
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+.img-this-device {
+    background-image: url('../images/ThisDevice.png') !important;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+}
+
+.img-from-another-device {
+    background-image: url('../images/FromAnotherDevice.png') !important;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+}
+
+.img-take-picture {
+    background-image: url('../images/TakePicture.png') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
+
+.img-upload-step {
+    background-image: url('../images/UploadStep.png') !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+}
+
+.unpaid-order-form-top-container-panel {
+    margin: 5px 5px 0px 5px;
+    border: solid 1px rgb(154, 158, 163) !important;
+}
+
+.unpaid-order-form-container-panel {
+    border: solid 1px rgb(154, 158, 163) !important;
+}
+
+/* Style for unpaid order form toolbar */
+.unpaid-order-form-toolbar {
+    padding: 0px 0px 5px 0px; 
+    background-color: rgb(57, 62, 73) !important;
+    margin-top: 1px;
+}
+
+/* Style for search field in unpaid order form toolbar */
+.unpaid-order-search-field {
+    min-height: 18px !important;
+    height: 18px;
+    max-height: 18px !important;
+}
+
+.unpaid-order-search-field.x-form-text {
+    padding: 0px 0px 0px 5px !important;
+}
+
+.unpaid-order-search-icon .x-form-trigger {
+    font: 14px/18px FontAwesome;
+    width: 18px;
+}
+
+.unpaid-order-search-icon .x-form-trigger:before {
+    content: "\f002";
+}
+
+.unpaid-order-search-icon .x-form-trigger-click {
+    background-color: blue;
+    color: white;
+}
+
+/* Style for unpaid order toolbar button. */
+.unpaid-toolbar-button {
+    background-color: rgb(57, 62, 73);
+    border: none;
+    font-family: 'FontAwesome';
+    padding: 0px;
+    float: left;
+}
+
+/* Style for icon of the buttons in unpaid order toolbar. */
+.unpaid-toolbar-button-icon {
+    color: white;
+}
+
+/* Style for help button in unpaid order toolbar. */
+.unpaid-toolbar-button-refesh {
+    font-size: 20px;
+}
+
+/* Style for help button in unpaid order toolbar. */
+.unpaid-toolbar-button-help {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Style for unpaid order toolbar button. */
+.unpaid-toolbar-button.x-btn-pressed {
+    background-color: rgb(58, 117, 229) !important;
+    border: none;
+}
+
+/* Hover color of unpaid order toolbar button. */
+.unpaid-toolbar-button-over {
+    background-color: rgb(57, 62, 73);
+}
+
+/* Focus color of unpaid order toolbar button. */
+.unpaid-toolbar-button-focus {
+    background-color: rgb(57, 62, 73);
+}
+
+/* Style for regular text labels in unpaid order panels. */
+.unpaid-order-form-regular-labels {
+    display: block;
+    color: black;
+    vertical-align: bottom !important;
+    font-weight: normal;
+}
+
+/* Style for spot color radio button. */
+.spot-color-option .x-form-item-label {
+    text-align: center;
+    padding: 0;
+    line-height: 10px;
+}
+
+/* Addresses spot-color radio button truncation issue with Edge browser. */
+.spot-color-option .x-form-item-label-default {
+    min-height: 0px !important;
+}
+
+.spot-color-option .x-form-radio {
+    width: 100%;
+    text-align: center;
+}
+
+/* IE 10+ specific */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .spot-color-option .x-form-radio {
+        margin-top: 0px !important;
+    }
+}
+
+.spot-color-option.x-item-disabled {
+    opacity: 0.5 !important;
+}
+
+.spot-color-option-group.x-item-disabled {
+    opacity: 1 !important;
+}
+
+.spot-color-option-group {
+    margin-bottom: 0px;
+}
+
+.spot-color-option-group .x-form-checkboxgroup-body {
+    padding: 0px !important;
+}
+
+.varnish-types-combo-box.x-item-disabled {
+    opacity: 0.5 !important;
+}
+
+.icomoon {
+    font-family: 'icomoon' !important;
+}
+
+.chk-user-cut-paths .x-form-cb-label {
+    padding-left: 26px !important;
+    margin-top: 0px !important;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+.chk-user-foil-color-selection .x-form-cb-label {
+    padding-left: 26px !important;
+    margin-top: 0px !important;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+.cut-line-type-icon {
+    font-size: 74px;
+    color: #FF0000;
+    position: relative;
+}
+
+.icomoon2 {
+    font-family: 'icomoon2' !important;
+}
+
+.edit-area-type-button .x-btn-inner {
+    color: black !important;
+}
+
+.edit-area-type-button .x-btn-button {
+    justify-content: flex-start !important;
+    -webkit-justify-content: flex-start !important;
+    -moz-justify-content: flex-start !important;
+    padding-left: 15px;
+}
+
+.zoom-button .x-btn-button {
+    justify-content: flex-start !important;
+    -webkit-justify-content: flex-start !important;
+    -moz-justify-content: flex-start !important;
+    padding-left: 32px;
+}
+
+.zoom-icon {
+    font-size: 32px;
+    color: #606060;
+    position: relative;
+    left: -16px;
+    top: -8px;
+}
+
+/* Styling for show/hide navigator checkbox. */
+.chk-show-hide-navigator .x-form-checkbox-default {
+    width: 32px !important;
+    height: 32px !important;
+    overflow: visible;
+}
+
+.chk-show-hide-navigator .x-form-checkbox-default::before {
+    font-family: FontAwesome;
+    content: '\f070'; /* fa-eye-slash */
+    color: #606060;
+    padding: 5px;
+    border: 1px solid rgb(203, 206, 208);
+    background-color: white;
+}
+
+.chk-show-hide-navigator.x-form-cb-checked .x-form-checkbox-default::before {
+    content: '\f06e'; /* fa-eye */
+}
+
+.chk-show-hide-navigator .x-form-cb-label-default.x-form-cb-label-after {
+    padding-left: 40px;
+}
+
+/* Overidden style for pd-toolspanel zoom. Required for dynamic color change. */
+.pd-toolspanel .zoom-icon {
+    color: #606060;
+}
+
+/* Style for label in product model QR Code panel. */
+.product-qr-code-top-label {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.product-image-adjust-top-label {
+    display: block;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+/* Style for labels in login form. */
+.login-form-lang-label:before {
+    font-family: FontAwesome;
+    content: '\f0ac';
+    padding-right: 5px;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+}
+
+.login-form-label {
+    display: block;
+    color: black;
+    text-align: right;
+    font-weight: normal;
+}
+
+.login-form-error-msg-label {
+    text-align: center; 
+    font-weight: normal; 
+    color: red; 
+    margin: 0px 0 10px 0;
+}
+
+/* IE 10+ specific */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .login-form-error-msg-label {
+        margin-top: 10px !important;
+    }
+}
+
+/* Edge specific */
+@supports (-ms-ime-align: auto) {
+    .login-form-error-msg-label {
+        margin-top: 10px !important;
+    }
+}
+
+/* Overidden style for nav-panel lang label. Required for dynamic color change. */
+.nav-panel .login-form-lang-label {
+    color: black;
+}
+
+/* Style for the login/change password button. */
+.login-button, .login-button-over {
+    background-color: rgb(58, 117, 229);
+    border: none;
+}
+
+.login-button.x-btn-pressed {
+    background-color: rgb(58, 117, 229) !important;
+    border-color: none;
+}
+
+.login-button .x-btn-inner {
+    color: white;
+}
+
+.lang-combo-box {
+    color: black;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+/* Overidden style for nav-panel lang combo. Required for dynamic color change. */
+.nav-panel .lang-combo-box {
+    color: black;
+}
+
+/* Style item list in lang combo. */
+.lang-combo-item-list {
+    color: black;
+}
+
+.lang-combo-box:before {
+    content: none;
+}
+
+.lang-combo-box .x-form-trigger-wrap{
+    border-width: 0px;
+}
+
+/* Style for nav panel step label. */
+.step-label {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    background-image: url('../images/crumbs.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10px;
+    font-weight: normal;
+    padding-right: 15px;
+    padding-left: 4px;
+}
+
+.step-label.last-step {
+    background-image: none;
+    padding-right: none;
+} 
+
+.step-label.done-step {
+    color: rgb(180, 180, 180);
+}
+
+.step-label.current-step {
+    color: rgb(0, 153, 217);
+    font-weight: bold;
+}
+
+/* Style for Catalog Grid view breadcrumb */
+.catalog-grid-breadcrumb {
+    border-style: solid;
+    border-color: rgb(229, 231, 233);
+    border-width: 0px 0px 1px 0px;
+}
+
+.breadcrumb-button {
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.breadcrumb-button.x-btn-pressed .x-btn-inner {
+    color: rgb(0, 153, 217);
+}
+
+.breadcrumb-button .x-btn-inner {
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.breadcrumb-right-arrow:before{
+    font-family: 'FontAwesome';
+    color: rgb(82, 86, 95) !important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    content: '\f105'; /* fa-angle-right */
+}
+
+/* Style for carousel button. */
+.carousel-button {
+    background-color: rgba(205, 207, 209, 0);
+    border: none;
+    color: rgb(82, 86, 95);
+    text-align: center;
+    font-family: 'FontAwesome';
+    font-size: 32px;
+    line-height: 32px;
+    float: left;
+}
+
+/* Style for carousel button. */
+.carousel-button.x-btn-pressed {
+    background-color: rgba(205, 207, 209, 0) !important;
+    color: rgb(0, 153, 217) !important;
+}
+
+/* Hover color of carousel button. */
+.carousel-button-over {
+    background-color: rgba(205, 207, 209, 0);
+}
+
+/* Focus color of carousel button. */
+.carousel-button-focus {
+    background-color: rgba(205, 207, 209, 0);
+}
+
+/* Default command button override for carousel. */
+.carousel-default-command-button {
+    background-color: rgb(179, 221, 246);
+    border: 1px solid rgb(179, 221, 246);
+    border-radius: 50px !important;
+}
+
+/* Text color and size override for carousel default command button. */
+.carousel-default-command-button .x-btn-inner-default-small,
+.top-button-measure {
+    color: rgb(82, 86, 95);
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+/* Pressed color of carousel default command button. */
+.carousel-default-command-button.x-btn.x-btn-pressed.x-btn-default-small {
+    background-color: rgb(0, 153, 217) !important;
+    border: 1px solid rgb(0, 153, 217) !important;
+}
+
+/* Hover color of carousel default command button. */
+.carousel-default-command-button-over {
+    background-color: rgb(179, 221, 246);
+}
+
+/* Focus color of carousel default command button. */
+.carousel-default-command-button-focus {
+    background-color: rgb(179, 221, 246);
+}
+
+/* Style for top button. */
+.top-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(82, 86, 95);
+    text-align: center;
+    font-family: 'FontAwesome';
+    font-size: 32px;
+    line-height: 32px;
+    float: left;
+    padding: 0px;
+}
+
+.top-button .x-btn-wrap {
+    height: 0px;
+}
+
+.top-button.x-btn-pressed {
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: rgb(0, 153, 217) !important;
+}
+
+/* Hover color of top button. */
+.top-button-over {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Focus color of top button. */
+.top-button-focus {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Style for nav help button. */
+.nav-help-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(82, 86, 95);
+    border-radius: 10px;
+    color: rgb(82, 86, 95);
+    text-align: center;
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    padding: 0px;
+}
+
+/* Style for nav-help button. */
+.nav-help-button.x-btn-pressed {
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: rgb(0, 153, 217) !important;
+    border-color:  rgb(0, 153, 217);
+}
+
+/* Hover color of nav-help button. */
+.nav-help-button-over {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* Focus color of nav-help button. */
+.nav-help-button-focus {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.step-label.top-label {
+    text-align: left;
+    background-image: none;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.pmd-mld-help-window {
+    border: 1px solid rgb(82, 86, 95);
+}
+
+/* Style for help window in pmd-mld */
+.pmd-mld-help-window .x-window-header {
+    border-width: 0px 0px 10px 0px !important;
+    border-color: rgb(57, 117, 229) !important;
+    background-color: rgb(57, 62, 73);
+}
+
+/* Style for help window in pmd-mld */
+.pmd-mld-help-window .x-window-header-title-default {
+    color: white;
+    font-size: 0.75em;
+}
+
+/* Background color for pmd-mld-help-window tool when pressed. */
+.pmd-mld-help-window .x-tool-pressed .x-tool-tool-el{
+    background-color: rgb(0, 153, 217);
+}
+
+/* Style for help window in pmd-mld*/
+.pmd-mld-help-window .x-tool-img {
+    background-color: rgb(57, 62, 73);
+}
+
+/* Style for help window in product designer. */
+.pd-help-window .x-window-header {
+    border-width: 0px !important;
+    background-color: rgb(230, 231, 232);
+}
+
+/* Style for help window in product designer. */
+.pd-help-window .x-window-header-title-default {
+    color: black;
+    font-size: 0.75em;
+}
+
+.pd-help-window .x-tool-tool-el {
+    color: black;
+}
+
+/* Background color for pd-help-window tool when pressed. */
+.pd-help-window .x-tool-pressed .x-tool-tool-el{
+    background-color: rgb(0, 153, 217);
+}
+
+/* Style for help window in product designer. */
+.pd-help-window .x-tool-img {
+    background-color: rgb(230, 231, 232);
+}
+
+.desktop-help-window .x-window-header {
+    padding: 9px 9px 6px 12px;
+}
+
+.touch-help-window .x-window-header {
+    padding-right: 12px;
+}
+
+.touch-help-window .x-window-body {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+
+.large-tool-help-window .x-tool-close {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.grey-bg {
+    background-color: rgb(230, 231, 232);
+}
+
+.icomoon3 {
+    font-family: 'icomoon3' !important;
+}
+
+.img-foil-color {
+    background-image: url('../images/FoilColorTool.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.x-btn-pressed.img-foil-color {
+    background-image: url('../images/FoilColorToolDown.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.img-metal-color {
+    background-image: url('../images/MetalColorTool.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.img-metal-color.x-item-disabled {
+    background-image: url('../images/MetalColorToolDisabled.png') !important;
+}
+
+.x-btn-pressed.img-metal-color {
+    background-image: url('../images/MetalColorToolDown.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 25%;
+}
+
+.rotate-template-icon {
+    background-image: url('../images/RotateTemplate.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    height: 40px !important;
+}
+
+.x-btn-pressed .rotate-template-icon {
+    background-image: url('../images/RotateTemplateDown.png') !important;
+}
+
+.rotate-left-90 {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+
+.rotate-right-90 {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
+/* Suppress the tap highlight color (iOS). The default gray color causes a flash. */
+* {
+    -webkit-tap-highlight-color:  transparent;
+}
+
+/* Style for Service Terms. */
+.serviceterms-main-label {
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 2.5;
+    text-align: center;
+    color: black;
+}
+
+.serviceterms-textbox {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.25;
+    color: black;
+    text-align: justify;
+    background-color: rgb(244, 245, 246) !important;
+}
+
+.serviceterms-accept-checkbox .x-form-cb-label-default, .acceptance-button-measure {
+    color: black;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+/* Suppress content zoom on pinch/zoom and double tap for IE and Edge. */
+/* Meta viewport does not work for IE and Edge. */
+body {
+    -ms-content-zooming: none;
+}
+
+/* Reduce the help window resize handles size from default 10px */
+/* 10px interferes with content scroll bars. */
+.pmd-mld-help-window .x-resizable-handle-south,
+.pmd-mld-help-window .x-resizable-handle-southwest,
+.pmd-mld-help-window .x-resizable-handle-southeast {
+    height: 4px;
+}
+
+.pmd-mld-help-window .x-resizable-handle-west,
+.pmd-mld-help-window .x-resizable-handle-southwest,
+.pmd-mld-help-window .x-resizable-handle-east,
+.pmd-mld-help-window .x-resizable-handle-southeast {
+    width: 4px;
+}
+
+.icomoon4 {
+    font-family: 'icomoon4' !important;
+}
+
+.icomoon5 {
+    font-family: 'icomoon5' !important;
+}
+
+.icomoon6 {
+    font-family: 'icomoon6' !important;
+}
+
+.icomoon7 {
+    font-family: 'icomoon7' !important;
+}
+
+/* Styling for the preview canvas. */
+.previewCanvasContainer {
+    border: 1px solid rgb(157, 159, 160);
+    box-sizing: content-box;
+    background: white;
+    text-align: center;
+}
+
+.previewCanvasLabel {
+    font-size: 10px;
+    border-top: 1px solid rgb(157, 159, 160);
+    font-weight: normal;
+    user-select: none;
+}
+
+.edit-area-type-icon {
+    font-size: 30px;
+    color: #606060;
+    width: 30px !important;
+    height: 30px;
+}
+
+.edit-area-shape-type-icon {
+    font-size: 74px;
+    color: #606060;
+    position: relative;
+}
+
+.img-not-print-color {
+    background-image: url('../images/SpecialEffect_NotPrint.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.image-outline-label,
+.image-outline-sliders .x-form-item-label-text {
+    font-weight: normal;
+}
+
+.x-boundlist-hideactive .x-boundlist-selected {
+    display: none;
+}
+
+/* Print type radiobutton styles */
+.print-type-option .x-form-cb-label {
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 26px -2px;
+    padding-left: 51px;
+    user-select: none;
+    font-weight: normal;
+}
+
+.print-type-option.option-color .x-form-cb-label {
+    background-image: url('../images/PrintType_Color.png');
+}
+.print-type-option.option-color.x-item-disabled .x-form-cb-label {
+    background-image: url('../images/PrintType_Color_gray.png');
+}
+
+.print-type-option.option-foil .x-form-cb-label {
+    background-image: url('../images/PrintType_Foil.png');
+}
+.print-type-option.option-foil.x-item-disabled .x-form-cb-label {
+    background-image: url('../images/PrintType_Foil_gray.png');
+}
+
+.print-type-option.option-metal .x-form-cb-label {
+    background-image: url('../images/PrintType_Metal.png');
+}
+.print-type-option.option-metal.x-item-disabled .x-form-cb-label {
+    background-image: url('../images/PrintType_Metal_gray.png');
+}
+
+.print-type-option.option-cut .x-form-cb-label {
+    background-image: url('../images/PrintType_Cut.png');
+}
+.print-type-option.option-cut.x-item-disabled .x-form-cb-label {
+    background-image: url('../images/PrintType_Cut_gray.png');
+}
+
+/* Styles for the guide line */
+.chk-show-hide-guideline .x-form-cb-label-default {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Styles for the open-close button. */
+.open-close-button {
+    background-color: transparent !important;
+}
+
+.open-close-button.x-btn-pressed .x-btn-icon-el-default-small {
+    transform: rotate(180deg);
+}
+
+.open-close-button.x-btn-default-small {
+    padding: 0px;
+    border: none;
+    box-shadow: none !important;
+}
+
+.open-close-button .x-btn-icon-el-default-small {
+    font-size: 16px;
+    color: #52565E;
+}
+
+.open-close-button .x-btn-inner-default-small {
+    font-size: 13px;
+    color: black;
+}
+
+.cut-material-color {
+    display: inline-block;
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 12px;
+    height: 24px;
+    border: 1px solid rgb(203, 206, 208);
+}
+
+.top-label {
+    color: rgb(82, 86, 95);
+    user-select: none;
+    cursor: pointer;
+}
+
+.top-label.x-lbl-pressed {
+	color: rgb(0, 153, 217);
+}
+
+.top-label::before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f104" !important;
+    margin-right: 10px;
+    font-size: 31px;
+    vertical-align: middle;
+}
+
+/* Styles for DO NOT PRINT COLOR */
+.dnpc-upload-form-label-title {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.dnpc-upload-form-label {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+.dnpc-upload-form-label-center {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.dnpc-upload-form-label-small {
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+.dnpc-upload-form-label-small-center {
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.product-dnpc-upload-form-top-label {
+    display: block;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+}

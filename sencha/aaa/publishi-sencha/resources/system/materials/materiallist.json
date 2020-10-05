@@ -1,0 +1,134 @@
+{
+  "materials": [
+    {
+      "materialName": "Brass",
+      "markingSettings": {
+        "text": {
+          "markingSpeed": 33,
+          "minImpact": 170,
+          "maxImpact": 360,
+          "vectorImpact": 360
+        },
+        "photo": {
+          "markingSpeed": 50,
+          "minImpact": 170,
+          "maxImpact": 380,
+          "vectorImpact": 380
+        },
+        "high-density": {
+          "markingSpeed": 33,
+          "minImpact": 180,
+          "maxImpact": 300,
+          "vectorImpact": 300
+        }
+      },
+      "materialColor": "#DFC86F",
+      "system": true,
+      "enabled": true
+    },
+    {
+      "materialName": "Aluminum",
+      "markingSettings": {
+        "text": {
+          "markingSpeed": 33,
+          "minImpact": 170,
+          "maxImpact": 330,
+          "vectorImpact": 330
+        },
+        "photo": {
+          "markingSpeed": 50,
+          "minImpact": 180,
+          "maxImpact": 330,
+          "vectorImpact": 330
+        },
+        "high-density": {
+          "markingSpeed": 33,
+          "minImpact": 180,
+          "maxImpact": 280,
+          "vectorImpact": 280
+        }
+      },
+      "materialColor": "#C1C4C5",
+      "system": true,
+      "enabled": true
+    },
+    {
+      "materialName": "Stainless Steel",
+      "markingSettings": {
+        "text": {
+          "markingSpeed": 33,
+          "minImpact": 170,
+          "maxImpact": 460,
+          "vectorImpact": 460
+        },
+        "photo": {
+          "markingSpeed": 50,
+          "minImpact": 170,
+          "maxImpact": 480,
+          "vectorImpact": 480
+        },
+        "high-density": {
+          "markingSpeed": 33,
+          "minImpact": 180,
+          "maxImpact": 360,
+          "vectorImpact": 360
+        }
+      },
+      "materialColor": "#95989D",
+      "system": true,
+      "enabled": true
+    },
+    {
+      "materialName": "Acrylic",
+      "markingSettings": {
+        "text": {
+          "markingSpeed": 33,
+          "minImpact": 170,
+          "maxImpact": 330,
+          "vectorImpact": 330
+        },
+        "photo": {
+          "markingSpeed": 50,
+          "minImpact": 170,
+          "maxImpact": 330,
+          "vectorImpact": 330
+        },
+        "high-density": {
+          "markingSpeed": 33,
+          "minImpact": 180,
+          "maxImpact": 280,
+          "vectorImpact": 280
+        }
+      },
+      "materialColor": "#D8D9DB",
+      "system": true,
+      "enabled": true
+    },
+    {
+      "materialName": "Roland MD",
+      "markingSettings": {
+        "text": {
+          "markingSpeed": 33,
+          "minImpact": 170,
+          "maxImpact": 390,
+          "vectorImpact": 390
+        },
+        "photo": {
+          "markingSpeed": 50,
+          "minImpact": 180,
+          "maxImpact": 400,
+          "vectorImpact": 400
+        },
+        "high-density": {
+          "markingSpeed": 33,
+          "minImpact": 180,
+          "maxImpact": 330,
+          "vectorImpact": 330
+        }
+      },
+      "materialColor": "#C6C3BC",
+      "system": true,
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "backgroundGradient": {
+    "direction": "TO_OUTSIDE",
+    "stop1Color": "#004CFF",
+    "stop2Color": "#9FBFFF"
+  },
+  "backgroundImage": {
+    "path": "",
+    "arrangement": "FILL"
+  },
+  "backgroundType": "SINGLE_COLOR",
+  "textColor": "#000000",
+  "decimalSeparator": ".",
+  "decimalPrecision": 2,
+  "startButtonBGColor": "#B3DDF6",
+  "startButtonPressedBGColor": "#0099D9",
+  "defaultCommandButtonBGColor": "#B3DDF6",
+  "defaultCommandButtonPressedBGColor": "#0099D9",
+  "commandButtonBGColor": "#E3E4E5",
+  "commandButtonPressedBGColor": "#CDCFD1",
+  "maxOrderQuantity": 100,
+  "skipCheckScreen": false,
+  "skipOrderCreateScreen": false,
+  "hideNormalColorPalette": false,
+  "hideBackgroundColorPalette": false
+}

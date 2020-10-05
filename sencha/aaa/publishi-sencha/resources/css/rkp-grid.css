@@ -1,0 +1,348 @@
+/* CSS for the various list/grid types */
+
+.pmd-mld-grid-panel-header {
+    background-color: white !important;
+    border-left: solid 1px rgb(154, 158, 163) !important;
+    border-top: solid 1px rgb(154, 158, 163) !important;
+    border-right: solid 1px rgb(154, 158, 163) !important;
+    border-bottom: solid 2px rgb(57, 117, 229) !important;
+    padding: 5px;
+}
+
+.pmd-mld-grid-panel-header .header-text {
+    color: black;
+    font-weight: normal;
+    margin: 5px 0 0 5px;
+}
+
+.pmd-mld-grid-panel-header .grid-panel-tools {
+    margin: 0 5px 0 5px;
+}
+
+/* Style for individual column headers. */
+.pmd-mld-grid-panel .x-column-header {
+    outline: 0;
+    background-color: rgb(243, 243, 244);
+    border-right: none;
+}
+
+.pmd-mld-grid-panel .x-column-header-inner {
+    padding: 1px 10px 1px;
+}
+
+/* Style for whole grid header headers, including column header. Otherwise
+a white space is visible header when scrool bar is on.*/
+.pmd-mld-grid-panel .x-grid-header-ct {
+    background-color: rgb(243, 243, 244);
+}
+
+.pmd-mld-grid-panel .x-grid-body {
+    border-top: 0px;
+}
+
+/* Style for the text inside the grid rows. */
+.pmd-mld-grid-panel .x-grid-item {
+    color: black;
+    background-color: white;
+    font-weight: normal;
+}
+
+/* Set background color for selected grid rows. */
+.pmd-mld-grid-panel .x-grid-item.x-grid-item-selected {
+    color: white;
+    background-color: rgb(58, 117,  229);
+}
+
+/* Set background color for row number cell of selected grid rows. */
+.pmd-mld-grid-panel .x-grid-item.x-grid-item-selected .x-grid-cell-row-numberer {
+    color: white;
+    background-color: rgb(58, 117,  229);
+}
+
+/* Prevent selected cell color from black. */
+.pmd-mld-grid-panel .x-grid-item.x-grid-item-selected .x-grid-item-focused {
+    color: white;
+}
+
+/* Set background color for alrenate grid rows. */
+.pmd-mld-grid-panel .x-grid-item-alt {
+    background-color: white;
+}
+
+/* Remove the border of a selected grid cell. */
+.pmd-mld-grid-panel .x-grid-item-focused .x-grid-cell-inner:before {
+    display: none;
+}
+
+/* Set panel header text color. */
+.pmd-mld-grid-panel .x-panel-header-title {
+    color: black;
+}
+
+/* Set style for panel header. */
+.pmd-mld-grid-panel .x-panel-header {
+    background-color: white !important;
+    border-bottom: solid 2px rgb(57, 117, 229) !important;
+}
+
+/* Set border for the whole grid panel. */
+.pmd-mld-grid-panel {
+    border: solid 1px rgb(154, 158, 163);
+}
+
+/* Don't display up and down arrow in coumn header when a store is sorted.*/
+.pmd-mld-grid-panel .x-column-header-sort-ASC .x-column-header-text-inner:after,
+.pmd-mld-grid-panel .x-column-header-sort-DESC .x-column-header-text-inner:after {
+    display: none;
+}
+
+/* Style to do away with trl border. */
+.noborder-trl {
+    border-top-width: 0 !important;
+    border-right-width: 0 !important;
+    border-left-width: 0 !important;
+}
+
+/* Style to do away with the top border. */
+.noborder-top {
+    border-top-width: 0 !important;
+}
+
+/* Style to draw bottom border. */
+.border-bottom {
+    border-bottom: 1px solid rgb(154, 158, 163) !important;
+}
+
+/* Style to do away with the right border. */
+.noborder-right {
+    border-right-width: 0 !important;
+}
+
+/* Style for grid panel tool buttons. */
+.pmd-mld-grid-panel-tool-button {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 18px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+
+.pmd-mld-grid-panel-tool-button::before {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.pmd-mld-grid-panel-tool-button.x-btn-over,
+.pmd-mld-grid-panel-tool-button.x-btn-focus {
+    background-color: white !important;
+    border: 0 !important;
+}
+
+.pmd-mld-grid-panel-tool-button.x-btn-pressed {
+    color: white !important;
+    background-color: rgb(57, 117, 229) !important;
+}
+
+.pmd-mld-grid-panel-tool-button-over {
+    background-color: white;
+}
+
+.pmd-mld-grid-panel-tool-button.x-btn-disabled {
+    background-color: white !important;
+    opacity: 0.3 !important;
+}
+
+/*Align icon inside action column of unpaid list grid cell to center.*/
+.unpaid-order-grid-action-column-cell .x-grid-cell-inner {
+    text-align:center !important;
+}
+
+/*No outline when a cell in the action column of unpaid list grid is selected/focussed*/
+.unpaid-order-grid-action-column-cell .x-grid-cell-inner-action-col :focus {
+    outline: none;
+}
+
+/* Style for action column icon of unpaid list grid*/
+.unpaid-order-grid-action-column-icon {
+    font-size: 20px;
+    line-height: 14px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(58, 117, 229);
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle !important;
+    color: white;
+    background-color: rgb(58, 117, 229);
+    padding-left: 2px;
+}
+
+/* Set background color for action column of selected rows in unpaid list grid. */
+.pmd-mld-grid-panel .x-grid-item.x-grid-item-selected .unpaid-order-grid-action-column-icon{
+    color: rgb(58, 117,  229);
+    background-color: white;
+    border: 2px solid white;
+}
+
+.unpaid-order-details-panel {
+    background-color: white !important;
+    border: solid 1px rgb(154, 158, 163) !important;
+}
+
+/* Style for checkbox grid column. */
+.x-grid-checkcolumn:focus {
+    outline: none !important;
+}
+
+.x-grid-item-selected span.x-grid-checkcolumn.x-grid-checkcolumn-checked:after {
+    color: white !important;
+}
+
+.x-grid-item-selected span.x-grid-checkcolumn:after {
+    color: white !important;
+}
+
+input[type='radio'].x-grid-radiocolumn {
+    width: 16px;
+    height: 16px;
+}
+
+.pmd-mld-grid-panel .x-grid-dirty-cell > .x-grid-cell-inner:after {
+    visibility: hidden;
+}
+
+/* Makes the row height same as that for main model layout list. */
+#productModelListMain .x-grid-cell-inner {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+/* Reduce padding on the default column to prevent column name truncation. */
+.pmd-mld-grid-panel-default-column .x-column-header-inner {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.pmd-mld-grid-panel-special-effects-cell .x-grid-cell-inner,
+.pmd-mld-grid-panel-print-type-cell .x-grid-cell-inner {
+    height: 38px;
+}
+
+.pmd-mld-grid-special-effects-icon,
+.pmd-mld-grid-print-type-icon {
+    height: 19px;
+    width: 20px;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    display: inline-block;
+}
+
+.img-print-type-foil {
+    background-image: url('../images/PrintType_Foil.png');
+}
+.img-print-type-metal {
+    background-image: url('../images/PrintType_Metal.png');
+}
+.img-print-type-cut {
+    background-image: url('../images/PrintType_Cut.png');
+}
+.img-print-type-color {
+    background-image: url('../images/PrintType_Color.png');
+}
+
+.img-special-effects-primer {
+    background-image: url('../images/SpecialEffect_Primer.png');
+}
+
+.x-grid-item-selected .img-special-effects-primer {
+    background-image: url('../images/SpecialEffect_Primer_selected.png');
+}
+
+.img-special-effects-matte {
+    background-image: url('../images/SpecialEffect_Matte.png');
+}
+
+.x-grid-item-selected .img-special-effects-matte {
+    background-image: url('../images/SpecialEffect_Matte_selected.png');
+}
+
+.img-special-effects-gloss {
+    background-image: url('../images/SpecialEffect_Gloss.png');
+}
+
+.x-grid-item-selected .img-special-effects-gloss {
+    background-image: url('../images/SpecialEffect_Gloss_selected.png');
+}
+
+.img-special-effects-reverse-print {
+    background-image: url('../images/SpecialEffect_ReversePrint.png');
+}
+
+.x-grid-item-selected .img-special-effects-reverse-print {
+    background-image: url('../images/SpecialEffect_ReversePrint_selected.png');
+}
+
+.img-special-effects-white {
+    background-image: url('../images/SpecialEffect_White.png');
+}
+
+.x-grid-item-selected .img-special-effects-white {
+    background-image: url('../images/SpecialEffect_White_selected.png');
+}
+
+.print-type-column-header .x-column-header-trigger:before {
+    top: 50%;
+    margin-top: -8px;
+    text-align: center;
+    position: relative;
+    display: block;
+    content: '\f0d7' !important;
+}
+
+.print-type-column-header .x-column-header-trigger {
+    border-right: 1px solid #D0D0D0;
+    width: 24px;
+    cursor: pointer;
+    font: 16px/1 FontAwesome;
+    color: #919191;
+}
+
+.show-trigger .print-type-column-header .x-column-header-trigger  {
+    display: block !important;
+}
+
+.hide-trigger .print-type-column-header .x-column-header-trigger {
+    display: none !important;
+}
+
+/* Style for search field in product models list. */
+.pmd-mld-search-field {
+    min-height: 21px !important;
+    height: 21px;
+    max-height: 21px !important;
+}
+
+.pmd-mld-search-field.x-form-text {
+    padding: 0px 0px 0px 5px !important;
+}
+
+.pmd-mld-search-icon .x-form-trigger {
+    font: 14px/18px FontAwesome;
+    width: 18px;
+    cursor: auto;
+}
+
+.pmd-mld-search-icon .x-form-trigger:before {
+    content: '\f002';
+    padding: 0px 4px 0px 5px;
+}
+
+.pmd-mld-grid-panel .pmd-mld-filter-panel.x-panel-header {
+    border-bottom: none !important;
+}

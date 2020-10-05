@@ -1,0 +1,251 @@
+div.image-item-thumb-wrap {
+    width: 80px;
+    height: 80px;
+	position: relative;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    margin-bottom: 3px;
+	border: 1px solid rgb(203, 206, 208);
+    user-select: none;
+}
+
+div.image-item-thumb-wrap-odd {
+    margin-right: 3px;
+}
+
+div.image-item-thumb-wrap-even {
+    margin-right: 0px;
+}
+
+div.image-item-thumb-wrap .image-item-thumb {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    object-fit: contain;
+}
+
+div.image-item-thumb-wrap.x-view-item-focused {
+    outline-style: none !important;
+}
+
+div.image-item-text-wrap {
+    margin-left: -15px;
+}
+
+/* Overidden style for pd-toolspanel image upload disclaimer text. Required for dynamic color change. */
+.pd-toolspanel div.image-item-text-wrap {
+    color: black;
+}
+
+div.clipart-item-thumb-wrap {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    margin-bottom: 3px;
+    border: 1px solid rgb(203, 206, 208);
+    padding: 2px;
+    user-select: none;
+}
+
+div.clipart-item-thumb-wrap-odd {
+    margin-right: 3px;
+}
+
+div.clipart-item-thumb-wrap-even {
+    margin-right: 0px;
+}
+
+div.clipart-item-thumb-wrap img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+div.clipart-item-thumb-wrap.x-view-item-focused {
+    outline-style: none !important;
+}
+
+a.color-item-thumb-wrap {
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    float: left;
+    padding: 2px;
+    user-select: none;
+}
+
+a.color-item-thumb-wrap span {
+    line-height: 30px;
+    display: block;
+    font-size: 0px;
+    border: solid 1px rgb(203, 206, 208);
+    height: 32px;
+}
+
+a.color-item-thumb-wrap.x-item-selected {
+    background-color: rgb(95, 162, 221);
+    border: none;
+}
+
+a.color-item-thumb-wrap.x-view-item-focused {
+    outline-style: none !important;
+}
+
+a.color-item-thumb-wrap.x-item-selected span {
+    border: solid 1px rgb(95, 162, 221) !important;
+}
+
+a.color-item-thumb-wrap img.nocolor {
+    height: 32px;
+    width: 32px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/NoColor.png');
+}
+
+div.foil-color-item-thumb-wrap {
+    border: solid 1px rgb(203, 206, 208);
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+span.foil-color-item-name {
+    text-overflow: ellipsis;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+div.foil-color-item-thumb-wrap span.foil-color-item-thumb {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.foil-color-item-thumb-wrap span.foil-color-item-name {
+    line-height: 32px;
+    color: black;
+}
+
+/* Overidden style for pd-toolspanel button text color. Required for dynamic color change. */
+.pd-toolspanel div.foil-color-item-thumb-wrap span.foil-color-item-name {
+    color: black;
+}
+
+div.foil-color-item-thumb-wrap.x-item-selected {
+    background-color: rgb(206, 207, 209);
+    border: solid 1px rgb(157, 159, 160) !important;
+}
+
+div.foil-color-item-thumb-wrap.x-view-item-focused {
+    outline-style: none !important;
+}
+
+div.shape-type-item-thumb-wrap {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    margin-bottom: 3px;
+    border: 1px solid rgb(203, 206, 208);
+    padding: 2px;
+    user-select: none;
+    text-align: center;
+}
+
+div.shape-type-item-thumb-wrap-odd {
+    margin-right: 3px;
+}
+
+div.shape-type-item-thumb-wrap-even {
+    margin-right: 0px;
+}
+
+div.shape-type-item-thumb-wrap.x-view-item-focused {
+    outline-style: none !important;
+}
+
+div.save-special-effects-item-wrap {
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 10px;
+    user-select: none;
+}
+
+div.save-special-effects-item-wrap.x-view-item-focused {
+    outline-style: none !important;
+}
+
+div.save-special-effects-item-wrap span {
+    vertical-align: 7px;
+    margin-left: 6px;
+    font-weight: normal;
+}
+
+div.save-special-effects-item-wrap img {
+    height: 24px;
+    width: 24px;
+}
+
+.check-special-effects-data-view .x-dataview-item {
+    display: inline-block;
+}
+
+div.check-special-effects-item-wrap {
+    margin-right: 8px;
+    text-align: center;
+    display: inline-block;
+    user-select: none;
+}
+
+div.check-special-effects-item-wrap.last-item {
+    margin-right: 0px;
+}
+
+div.check-special-effects-item-wrap.x-view-item-focused {
+    outline-style: none !important;
+}
+
+div.check-special-effects-item-wrap span {
+    font-weight: normal;
+    font-size: 10px;
+    color: black;
+}
+
+div.check-special-effects-item-wrap img {
+    height: 25px;
+    width: 25px;
+}
+
+div.varnish-item-thumb-wrap {
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 3px;
+    border: 1px solid #d0d0d0;
+	user-select: none;
+}
+
+div.varnish-item-thumb-wrap img {
+    height: 75px;
+    width: 75px;
+    vertical-align: bottom;
+}
+
+div.varnish-item-thumb-wrap.x-item-selected {
+    outline: solid 2px rgb(95, 162, 221) !important;
+}
+
+div.varnish-item-thumb-wrap.x-view-item-focused {
+    outline-style: none;
+}

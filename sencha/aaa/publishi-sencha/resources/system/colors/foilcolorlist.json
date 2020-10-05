@@ -1,0 +1,58 @@
+{
+  "foilColors": [
+    {
+      "colorName": "GOLD",
+      "colorValue": "#FFD700",
+      "localizedColorNames": {
+        "en": "GOLD",
+        "ja": "ゴールド",
+        "zh-CN": "金",
+        "zh-TW": "金",
+        "fr": "OR",
+        "it": "ORO",
+        "de": "GOLD",
+        "es": "ORO",
+        "pt": "DOURADO",
+        "ko": "골드"
+      },
+      "system": true,
+      "enabled": true
+    },
+    {
+      "colorName": "SILVER",
+      "colorValue": "#C0C0C0",
+      "localizedColorNames": {
+        "en": "SILVER",
+        "ja": "シルバー",
+        "zh-CN": "银",
+        "zh-TW": "銀",
+        "fr": "ARGENT",
+        "it": "ARGENTO",
+        "de": "SILBER",
+        "es": "PLATA",
+        "pt": "PRATEADO",
+        "ko": "실버"
+      },
+      "system": true,
+      "enabled": true
+    },
+    {
+      "colorName": "COPPER",
+      "colorValue": "#C87533",
+      "localizedColorNames": {
+        "en": "COPPER",
+        "ja": "銅",
+        "zh-CN": "铜",
+        "zh-TW": "銅",
+        "fr": "CUIVRE",
+        "it": "RAME",
+        "de": "KUPFER",
+        "es": "COBRE",
+        "pt": "COBRE",
+        "ko": "구리"
+      },
+      "system": true,
+      "enabled": true
+    }
+  ]
+}

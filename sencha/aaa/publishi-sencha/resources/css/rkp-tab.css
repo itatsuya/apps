@@ -1,0 +1,52 @@
+/* CSS for the tab panel */
+.tab-panel .x-tab-bar-default {
+    background-color: transparent;
+}
+
+.tab-panel .x-tab-default-top{
+    background-color: rgb(230, 231, 232);
+}
+
+.tab-panel .x-tab-default-top.x-tab-disabled {
+    background-color: rgb(230, 231, 232);
+}
+
+.tab-panel .x-tab.x-tab-active.x-tab-default {
+    background-color: transparent;
+}
+
+.tab-panel .x-tab-bar-default-top > .x-tab-bar-body-default {
+    padding: 0px;
+}
+
+.tab-panel .x-tab-inner-default {
+    color: black;
+}
+
+/* Overidden style for pd-toolspanel tabpanel tab text. Required for dynamic color change. */
+.pd-toolspanel .tab-panel .x-tab-inner-default {
+    color: black;
+}
+
+.tab-panel .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: black;
+}
+
+/* Overidden style for pd-toolspanel tabpanel tab text. Required for dynamic color change. */
+.pd-toolspanel .tab-panel .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: black;
+}
+
+.tab-panel .x-tab-button {
+    text-align: center !important;
+}
+
+/* Prevents blue border when tab is clicked. */
+.tab-panel .x-tab-focus.x-tab-default {
+    outline: 0px;
+}
+
+.tab-panel .x-tab, .tab-panel .x-tab-focus {
+    border-top: 1px solid rgb(206, 207, 209) !important;
+    border-right: 1px solid rgb(206, 207, 209) !important;
+}

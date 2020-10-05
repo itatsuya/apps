@@ -1,0 +1,5 @@
+/* IPA Gothic */
+@font-face {
+  font-family: 'IPAGothic';
+  src: url('../fonts/ipaexg.ttf') format('truetype');
+}

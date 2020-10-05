@@ -1,0 +1,63 @@
+{
+    "name": "component",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.6.0.13",
+            "frameworkVersion": "6.6.0.258"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost:62698/",
+        "exportPath": "C:/Users/itatsuya/Desktop/test",
+        "lockUrlPrefix": true,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "installStatus": "Not Installed",
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "sdkPath": ""
+    },
+    "xdsVersion": "4.2.4",
+    "xdsBuild": 389,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext66",
+    "viewOrderMap": {
+        "view": [
+            "ca484db8-a38d-4421-83ef-5bbfd8be12f5",
+            "9facb887-970e-4347-aa23-1c6cd39f6ba2",
+            "cf8a246f-49cf-4488-b6aa-0daa98337f77",
+            "c5db36a5-4823-4ca4-97ba-7acd5251ed31",
+            "26d59880-0633-4070-8348-0f27e6b44d7f",
+            "9b9f3d9a-098f-4bd5-8b4b-ccccd25098ed"
+        ],
+        "store": [
+            "c03990e1-8b43-4f3d-9e8f-91fbb94c9adf",
+            "1654ec72-751a-4d4e-8b0a-80dbe9f6ef69"
+        ],
+        "controller": [],
+        "model": [
+            "75358848-7c94-4540-90de-eec0ec1811d7",
+            "7b021745-2243-4e0f-973a-3c25c2870374",
+            "9ae6783f-5d96-4093-9e9b-fce0d00d9bab"
+        ],
+        "resource": [
+            "d255b31c-7322-479a-8cf5-3198a686dd2a",
+            "995478dd-7e07-48ad-9dbf-42e167887795",
+            "082168be-747a-465e-81eb-e34777c43caf"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

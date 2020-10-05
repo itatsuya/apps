@@ -1,0 +1,84 @@
+﻿{
+	"textures": [
+		{
+			"name": "RTSL-Grapac-B01S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B01S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B02S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B02S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B03S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B03S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B04S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B04S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B05S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B05S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B06S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B06S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B07S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B07S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B09S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B09S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B10S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B10S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B12S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B12S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B13S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B13S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B14S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B14S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B15S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B15S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B16S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B16S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B17S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B17S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B18S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B18S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B19S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B19S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B20S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B20S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B21S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B21S.png"
+		},
+		{
+			"name": "RTSL-Grapac-B22S",
+			"thumbPath": "resources/textures/RTSL-Grapac-B22S.png"
+		}
+	]
+}
