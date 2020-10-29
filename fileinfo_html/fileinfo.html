@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>HTML5 TIPS</title>
+<script>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>HTML5 TIPS</title>
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  // ファイルが指定されたタイミングで、その情報を表示
+  document.querySelector("#file").addEventListener('change', function(e) {
+    // File APIを利用できるかをチェック（1）
+    if (window.File) {
+      // 指定されたファイルを取得（2）
+      var input = document.querySelector('#file').files[0];
+      // ファイル情報をページに反映（3）
+      document.querySelector('#name').innerHTML = input.name;
+      document.querySelector('#type').innerHTML = input.type;
+      document.querySelector('#size').innerHTML = input.size / 1024;
+      document.querySelector('#urn').innerHTML = input.urn;
+    }
+  }, true);
+});
+</script>
+</head>
+<body>
+ファイル：
+<input id="file" name="file" type="file" />
+<ul>
+  <li>名前：<span id="name"></span></li>
+  <li>種類：<span id="type"></span></li>
+  <li>サイズ：<span id="size"></span></li>
+  <li>URN：<span id="urn"></span></li>
+</ul>
+</body>
+</html>

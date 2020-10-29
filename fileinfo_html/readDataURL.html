@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>HTML5 TIPS</title>
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  // ファイルが指定されたタイミングで、その内容を表示
+  document.querySelector("#file").addEventListener('change', function(e) {
+    // File APIを利用できるかをチェック
+    if (window.File) {
+      // 指定されたファイルを取得
+      var input = document.querySelector('#file').files[0];
+      // ファイル読み込みの準備
+      var reader = new FileReader();
+      // ファイルの読み込みに成功したら、その内容を<img id="result">に反映
+      reader.addEventListener('load', function(e) {
+        document.querySelector("#result").src = reader.result;
+      }, true);
+      // ファイルの内容をData URL形式で取得（1）
+      reader.readAsDataURL(input);
+    }
+  }, true);
+});
+</script>
+</head>
+<body>
+ファイル：
+<input id="file" name="file" type="file" />
+<hr />
+<!--読み込み結果を反映する場所を用意-->
+<img id="result" />
+</body>
+</html>

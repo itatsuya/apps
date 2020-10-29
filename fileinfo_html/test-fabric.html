@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8">-->
+    <meta charset="utf-8" />
+    <style type="text/css">
+      canvas { border: 3px solid black; }
+    </style>
+
+    <title>HTML5 Tetris</title>
+    <!--
+    <script type="text/javascript" src="C:\Users\itatsuya\work\js\fabric-2.3.3.js"></script>
+    -->
+    <script type="text/javascript" src="C:\Users\itatsuya\work\js\fabric_VIR.js"></script>
+    <script type="text/javascript" src="C:\Users\itatsuya\work\js\jquery-3.3.1-trans.js"></script>
+  
+
+  </head>
+  <body>
+    <h2>fabric Test</h2><br>
+    <canvas id="c" width="500" height="500"></canvas>
+    
+    
+<!--
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+var canvas = new fabric.Canvas('c');
+
+var rect = new fabric.Rect({
+    left: 50,
+    top: 50,
+    width: 75,
+    height: 50,
+    fill: 'green',
+    stroke: 'red',
+    strokeWidth: 1,
+    padding: 10
+});
+
+canvas.add(rect);
+});
+
+
+</script>
+-->
+
+
+    <script type="text/javascript">
+
+    (function() {
+      var canvas = new fabric.Canvas('c');
+      canvas.setHeight(1000);
+      canvas.setWidth(800);
+      fabric.Object.prototype.originX = fabric.Object.prototype.originY = 'center';
+      fabric.Object.prototype.transparentCorners = false;
+      fabric.Object.prototype.objectCaching = true;
+      fabric.loadSVGFromURL('http://upload.wikimedia.org/wikipedia/en/3/35/Starbucks_Coffee_Logo.svg', function(objects, options) {
+        var oImg = fabric.util.groupSVGElements(objects, options);
+      
+        /*
+        oImg.set({
+          left: 100,
+          top: 100,
+        })
+        .setCoords();
+        canvas.add(oImg);
+        */
+      
+        // load shapes
+        for (var i = 1; i < 4; i++) {
+          for (var j = 1; j < 6; j++) {
+            oImg.clone(function(i, j) {
+              return function(clone) {
+                clone.set({
+                  left: i * 200 - 100,
+                  top: j * 200 - 100
+                });
+                canvas.add(clone);
+              };
+            }(i, j));
+          }
+        }
+        
+      });
+
+
+    })();
+    
+    </script>
+
+    </body>
+</html>
+
