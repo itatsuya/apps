@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>iText7 デモ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/accountDetails.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <section id="include_header" class="header-wrap"></section>
+    </header>
+
+    <section>
+        <div class="section-container">
+			<h2>出力する帳票情報の入力</h2>
+			<form action="/downDetails" method="post">
+				<article>
+					<div class="divTable">
+						<div class="divTableBody">
+							<div class="divTableRow">
+								<div class="divTableCell">フォント</div>
+								<div class="divTableCell">
+									<Select name="font">
+										<Option value="ipag.ttf">ゴシック</Option>
+										<Option value="ipam.ttf">明朝</Option>
+									</Select>
+								</div>
+							</div>
+							<div class="divTableRow">
+								<div class="divTableCell">お客様名</div>
+								<div class="divTableCell"><input name="name" type="text" value="" /></div>
+							</div>
+							<div class="divTableRow">
+								<div class="divTableCell">受付番号</div>
+								<div class="divTableCell"><input name="number" type="text" value="" /></div>
+							</div>
+							<div class="divTableRow">
+								<div class="divTableCell">期間</div>
+								<div class="divTableCell"><input name="period1" id="period1" type="text" value="2019/07/31" /> To <input id="period2" name="period2" type="text" value="2019/08/06" /></div>
+							</div>
+						</div>
+					</div>
+					<div class="check">
+						<p align="left"><input name="watermark" type="checkbox" value="Y" />ウォーターマークを出力する</p>
+						<p></p>
+					</div>
+				</article>
+				<div id="buttonBox">
+					<button>DOWNLOAD</button>
+				</div>
+			</form>
+        </div>
+    </section>
+
+    <footer>
+        <section id="include_footer"></section>
+    </footer>
+
+</body>
+
+</html>

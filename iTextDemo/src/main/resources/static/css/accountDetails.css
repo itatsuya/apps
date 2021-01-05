@@ -1,0 +1,83 @@
+h2 {
+	padding-top: 50px;
+}
+
+section {
+  display: contents;
+  float: left;
+  width: 100%;
+}
+
+article {
+  border: 1px solid black;
+}
+
+/* Clear floats after the columns */
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+	padding: 30px;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableCell {
+	display: table-cell;
+	padding: 20px 10px;
+}
+
+.check {
+	padding: 0 30px 30px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  margin: 20px;
+}
+
+#buttonBox {
+	text-align: center;
+}
+
+button {
+  width: 250px;
+  height: 30px;
+  color: white;
+  background-color: #084975;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#buttonBox input {
+	width: 250px;
+    height: 30px;
+    color: white;
+    background-color: #084975;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.check p:last-child {
+	margin: 0 10px 0 53px;
+}

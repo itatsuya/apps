@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>iText7 デモ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/common.css}" />
+    <script type="text/javascript" th:src="@{/js/common.js}"></script>
+</head>
+
+<body>
+
+    <header>
+        <section id="include_header" class="header-wrap"></section>
+    </header>
+
+    <section>
+        <div class="section-container">
+            <article>
+                <button onclick="window.location = '/accountDetails'">入力画面に移動</button>
+                <p>実装内容 :</p>
+                <ul>
+                    <li>入力した内容を反映した帳票をPDF形式で新規作成します。</li>
+                    <li>帳票には文字、画像、表を配置しています。</li>
+                    <li>オプションでウォーターマークを追加できます。</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <section id="include_footer"></section>
+    </footer>
+
+</body>
+
+</html>
