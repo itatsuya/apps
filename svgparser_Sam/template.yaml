@@ -9,11 +9,11 @@ Globals:
     Timeout: 10
 
 Resources:
-  HelloWorldFunction:
+  SVGParserFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      CodeUri: ./src/HelloWorld/
-      Handler: HelloWorld::HelloWorld.Function::FunctionHandler
+      CodeUri: ./src/SVGParser/
+      Handler: SVGParser::SVGParser.Function::FunctionHandler
       Runtime: dotnetcore3.1
       Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
         Variables:
@@ -22,8 +22,10 @@ Resources:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
-            Path: /hello
+            Path: /isSingleColor
             Method: get
+      Layers:
+        - arn:aws:lambda:ap-northeast-1:847277630832:layer:libgdiplus:1
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
